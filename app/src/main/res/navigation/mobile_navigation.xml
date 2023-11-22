@@ -22,4 +22,10 @@
         android:name="com.example.earthshaker.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/earthquake_info"
+        android:name="com.example.earthshaker.ui.notifications.NotificationsFragment"
+        android:label="@string/title_earthquake_info"
+        tools:layout="@layout/fragment_earthquake_info" />
 </navigation>
