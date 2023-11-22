@@ -12,13 +12,16 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2">
 
-        <Button
-            android:id="@+id/button7"
+        <ImageButton
+            android:id="@+id/backbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginTop="0dp"
-            android:text="<" />
+            android:icon = ""
+            android:src="@drawable/baseline_chevron_left_24"
+            tools:src="@drawable/baseline_chevron_left_24"
+            android:contentDescription="go back to home page"/>
 
         <TextView
             android:id="@+id/textView9"
@@ -59,7 +62,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/filterbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -70,7 +73,7 @@
                 app:iconTint="#000000" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/sortbutton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -86,23 +89,26 @@
             android:layout_height="170dp">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/Earthquakeinfo1"
                 android:layout_width="300dp"
                 android:layout_height="90dp"
                 android:src="@tools:sample/avatars" />
 
-            <Button
-                android:id="@+id/button4"
+            <ImageButton
+                android:id="@+id/Moreinfo1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
-                android:text=">" />
+                android:icon = ""
+                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                android:contentDescription = "see more info 1"/>
+
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/infodesc1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView"
@@ -111,7 +117,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/author1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -127,23 +133,26 @@
             android:layout_height="170dp">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/Earthquakeinfo2"
                 android:layout_width="300dp"
                 android:layout_height="90dp"
                 android:src="@tools:sample/avatars" />
 
-            <Button
-                android:id="@+id/button4"
+            <ImageButton
+                android:id="@+id/Moreinfo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
-                android:text=">" />
+                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                tools:src="@drawable/baseline_keyboard_arrow_right_24"
+                android:icon = ""
+                android:contentDescription="see more info 2"/>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/infodesc2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView"
@@ -152,7 +161,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/author2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
@@ -168,23 +177,26 @@
             android:layout_height="170dp">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/Earthquakeinfo3"
                 android:layout_width="300dp"
                 android:layout_height="90dp"
                 android:src="@tools:sample/avatars" />
 
-            <Button
-                android:id="@+id/button4"
+            <ImageButton
+                android:id="@+id/Moreinfo3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
-                android:text=">" />
+                android:src="@drawable/baseline_keyboard_arrow_right_24"
+                tools:src="@drawable/baseline_keyboard_arrow_right_24"
+                android:icon = ""
+                android:contentDescription="See more info 3"/>
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/infodesc3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imageView"
@@ -193,7 +205,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/author3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
